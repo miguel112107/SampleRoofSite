@@ -1,0 +1,97 @@
+body{
+
+	width: 100%;
+	background-color:#1A4C80;
+	background-image: url("el-paso-tx.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#pagewrap {
+	margin: 0 auto;
+	width:80%;
+	
+	}
+	
+#banner{
+	width:100%;
+	display: block;
+}
+
+#bannerPic{
+	width:100%;
+}
+
+.nav{
+	margin: 0 auto;
+	width: 80%;
+	font-size:14px;
+	font-weight:800;
+	opacity: 0.8;
+
+}
+
+.nav-item {
+  min-width: 15%;
+  float: left;
+  display: inline-block;
+}
+.nav-item a {
+  display:block;
+  padding:15px 20px;
+  color:#FFF;
+  background:#34495E;
+
+}
+.nav-item:first-child a {
+  border-radius:5px 0 0 5px;
+}
+.nav-item:last-child a {
+  border-radius:0 5px 5px 0;
+}
+.nav-item a:hover {
+  background:#98CBFF;
+}
+
+#headInfo{
+	color:white;
+	margin: 10px auto;
+	display:inline-block;
+	border: 1px solid black;
+	border-radius:10px;
+	padding:5px;
+	background:#34495E;
+	opacity: 0.8;
+}
+#midInfo{
+	margin: 0 auto;
+	display:inline-block;
+	border-radius:10px;
+	padding:5px;
+	background:#34495E;
+	opacity: 0.8;
+	color:white;
+	border: 1px solid black;
+}
+#pic{
+	margin: 0 auto;
+	float:left;
+	display:inline-block;
+	
+}
+#midInfo p{
+	display: inline-block;
+	text-align:left;
+	
+
+}
+
+footer{
+	display:block;
+	color:green;
+	height:200px;
+	width:100%;
+	background-color: black;
+	opacity: 0.8;
+}
+
